@@ -1,0 +1,43 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="Destinazioni">
+
+        <CheckBoxPreference
+                android:key="checkbox_Acerra"
+                android:title="Acerra"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="checkbox_Baiano"
+                android:title="Baiano"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="checkbox_Nola"
+                android:title="Nola"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="checkbox_Poggiomarino"
+                android:title="Poggiomarino"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="checkbox_San_Giorgio"
+                android:title="San Giorgio"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="checkbox_Sarno"
+                android:title="Sarno"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="checkbox_Sorrento"
+                android:title="Sorrento"
+                android:defaultValue="true"/>
+        <CheckBoxPreference
+                android:key="checkbox_TAnnunziata"
+                android:title="Torre Annunziata"
+                android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

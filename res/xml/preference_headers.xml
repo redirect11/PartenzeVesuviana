@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header android:fragment="com.danny.android.partenzevesuviana.FilterSettingsActivity$Prefs1Fragment"
+            android:icon="@drawable/ic_action_search"
+            android:title="Filtro Destinazione"
+            android:summary="Seleziona le destinazioni che ti interessa consultare" />
+
+</preference-headers>

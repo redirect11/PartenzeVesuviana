@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Circumvesuviana: Partenze da Porta Nolana</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Partenze da Porta Nolana</string>
+    <string name="no_trains">Nessun treno in partenza</string>
+    <string name="dialog_title_list_preference">Seleziona una destinazione</string>
+
+</resources>

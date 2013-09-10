@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="destinations">
+        <item>Acerra</item>
+        <item>Baiano</item>
+        <item>Sorrento</item>
+        <item>Poggiomarino</item>
+        <item>San Giorgio</item>
+        <item>Nola</item>
+    </array>
+
+</resources>

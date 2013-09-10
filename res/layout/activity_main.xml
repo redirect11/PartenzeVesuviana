@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	 <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a150abd39a69317"
+                         ads:adSize="BANNER"
+                         ads:testDevices="1581420B6FA0CBFBDFC8F4A0C70A4096,B81D00604ADF36C268C8890684840243"
+                         ads:loadAdOnCreate="true"/>
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/adView" 
+        tools:context=".MainActivity" />
+    
+    <TextView
+        android:id="@+id/no_trains"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:shadowColor="#33000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="Carcamento..."
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>

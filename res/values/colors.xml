@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="red">#ff0000</color>
+<color name="green">#00ff00</color>
+<color name="blue">#0000ff</color>
+<color name="listitem_start">#f6f6f6</color>
+<color name="listitem_end">#bcbcbc</color>
+<color name="listitem_center">#cfcfcf</color>
+<color name="supp">#cc3726</color>
+<color name="regular">#2e8b57</color>
+</resources>
